@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rock • paper • scissors</title>
+  <meta name="viewport"
+  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="img/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js" async></script>
+</head>
+<body>
+  <section class="section">
+    <div class="offer">
+      <h1>Play with me</h1>
+      <div class="variants">
+        <button id="rock">
+          <img class="fantom" src="img/rock1.png" alt="">
+          <img  class="hand" src="img/rock.png" alt="">  
+        </button>
+        <button id="paper">
+          <img class="fantom" src="img/paper1.png" alt="">
+          <img  class="hand" src="img/paper.png" alt="">
+        </button>
+        <button id="scissors">
+          <img class="fantom" src="img/scissors1.png" alt="">
+          <img  class="hand" src="img/scissors.png" alt="">
+        </button>
+      </div>
+      <div class="attempts">
+        <img src="img/three.png" alt="" id="three">
+        <img src="img/two.png" alt="" id="two">
+        <img src="img/one.png" alt="" id="one">
+        <img src="img/zero.png" id="zero" alt="">
+      </div>
+      <div class="results">
+        <div class="you_item">
+          <img src="img/rock.png" id="you_img" alt="">
+          <p class="you">you: <span id="you">0</span></p>
+        </div>
+        <span>•</span>
+        <div class="bot_item">
+          <img src="img/rock.png" id="bot_img" alt="">
+          <p class="bot">bot: <span id="bot">0</span></p>
+        </div>
+      </div>
+      <h2 id="response"></h2>
+      <button id="reset">Try again</button>
+    </div>
+  </section>
+</body>
+</html>
